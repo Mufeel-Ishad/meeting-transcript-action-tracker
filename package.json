@@ -1,0 +1,24 @@
+{
+  "name": "meeting-transcript-action-tracker",
+  "version": "1.0.0",
+  "description": "Meeting Transcript to Action Tracker - Full Stack Application",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "meeting",
+    "transcript",
+    "action-tracker",
+    "nlp",
+    "speech-to-text"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
